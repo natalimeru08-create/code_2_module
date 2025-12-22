@@ -220,7 +220,6 @@ h1 {
 .halfMoons4 {
   width: 70vw;
   height: 13.8vw;
-  margin-left: ;
   background-image: url(../images/halfMoons.png);
   background-size: 70vw 13.8vw;
   animation: leftAndRight-2 3s linear infinite;
