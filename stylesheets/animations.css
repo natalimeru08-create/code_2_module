@@ -1,0 +1,395 @@
+@keyframes running-animation {
+  0% {
+    transform: translateZ(0);
+  }
+
+  100% {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+@keyframes opacity-animation {
+  0% {
+    opacity: 100%;
+  }
+  50% {
+    opacity: 30%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@keyframes sheepWalk-1 {
+  0% {
+    background-position: 0 0;
+    transform: translate(-60vw, 0);
+  }
+
+  100% {
+    background-position: 177.3vw 0;
+    transform: translate(110vw, 0);
+  }
+}
+@keyframes sheepWalk-2 {
+  0% {
+    display: none;
+  }
+  14% {
+    background-position: 0 0;
+    transform: translate(-60vw, 0);
+  }
+
+  100% {
+    background-position: 177.3vw 0;
+    transform: translate(110vw, 0);
+  }
+}
+
+/* 
+@keyframes typing {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+} */
+@keyframes typing1 {
+  0% {
+    width: 0;
+  }
+  20% {
+    width: 100%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes typing2 {
+  0%,
+  30% {
+    width: 0;
+  }
+  40% {
+    width: 100%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes typing3 {
+  0%,
+  40% {
+    width: 0;
+  }
+  60% {
+    width: 100%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes pad1 {
+  0% {
+    transform: translateY(-10vw);
+  }
+  100% {
+    transform: translateY(70vw);
+  }
+}
+@keyframes pad2 {
+  0% {
+    transform: translateY(-20vw);
+  }
+  100% {
+    transform: translateY(70vw);
+  }
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(8deg);
+  }
+}
+@keyframes upAndDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(55vw);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes leftAndRight-1 {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-15vw);
+  }
+  75% {
+    transform: translateX(-15vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes leftAndRight-2 {
+  0% {
+    transform: translateX(14.5vw);
+  }
+  25% {
+    transform: translateX(26vw);
+  }
+  50% {
+    transform: translateX(14.5vw);
+  }
+  75% {
+    transform: translateX(0vw);
+  }
+  100% {
+    transform: translateX(14.5vw);
+  }
+}
+/* 19.5vw
+1vw */
+@keyframes flying-1 {
+  0% {
+    transform: translate(-5vw, 19.5vw);
+  }
+  25% {
+    transform: translate(2.4vw, 1vw);
+  }
+  50% {
+    transform: translate(13vw, 19.5vw);
+  }
+  75% {
+    transform: translate(24vw, 1vw);
+  }
+  90% {
+    transform: translate(34vw, 19.5vw);
+  }
+  100% {
+    transform: translate(50vw, 1vw);
+  }
+}
+
+@keyframes sleeping {
+  0% {
+    background-position: 0 top;
+  }
+  100% {
+    background-position: -116vw top;
+  }
+}
+@keyframes leftAndRight-3 {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(20vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes leftAndRight-4 {
+  0% {
+    transform: translateX(20vw);
+  }
+  50% {
+    transform: translateX(0vw);
+  }
+  100% {
+    transform: translateX(20vw);
+  }
+}
+@keyframes leftAndRight-5 {
+  0% {
+    transform: translateX(11.6vw);
+  }
+  25% {
+    transform: translateX(0vw);
+  }
+  50% {
+    transform: translateX(11.6vw);
+  }
+  75% {
+    transform: translateX(15vw);
+  }
+  100% {
+    transform: translateX(11.6vw);
+  }
+}
+/* полёт*/
+@keyframes flying-2 {
+  0% {
+    transform: translate(1.6vw, 13.2vw);
+  }
+  50% {
+    transform: translate(7.6vw, 9.6vw);
+  }
+  70% {
+    transform: translate(12.1vw, 12vw);
+  }
+  100% {
+    transform: translate(1.6vw, 13.2vw);
+  }
+}
+@keyframes flying-3 {
+  0% {
+    transform: translate(34vw, 10.9vw);
+  }
+  50% {
+    transform: translate(30.9vw, 6.3vw);
+  }
+  70% {
+    transform: translate(23.7vw, 9.8vw);
+  }
+  100% {
+    transform: translate(34vw, 10.9vw);
+  }
+}
+@keyframes flying-4 {
+  0% {
+    transform: translate(12.3vw, 22.2vw);
+  }
+  25% {
+    transform: translate(21.3vw, 26.9vw);
+  }
+  50% {
+    transform: translate(17.6vw, 32.4vw);
+  }
+  80% {
+    transform: translate(5.2vw, 29.4vw);
+  }
+  100% {
+    transform: translate(12.3vw, 22.2vw);
+  }
+}
+@keyframes flying-5 {
+  0% {
+    transform: translate(34vw, 33vw);
+  }
+  50% {
+    transform: translate(37.3vw, 38.7vw);
+  }
+  70% {
+    transform: translate(22.3vw, 39.7vw);
+  }
+  100% {
+    transform: translate(34vw, 33vw);
+  }
+}
+@keyframes flying-6 {
+  0% {
+    transform: translate(1.5vw, 40vw);
+  }
+  50% {
+    transform: translate(6.6vw, 48.2vw);
+  }
+  85% {
+    transform: translate(15.4vw, 45.5vw);
+  }
+  100% {
+    transform: translate(1.5vw, 40vw);
+  }
+}
+@keyframes flying-7 {
+  0% {
+    transform: translate(8.9vw, 6.3vw);
+  }
+  50% {
+    transform: translate(23.8vw, 1.9vw);
+  }
+  80% {
+    transform: translate(19.6vw, 7vw);
+  }
+  100% {
+    transform: translate(8.9vw, 6vw);
+  }
+}
+@keyframes flying-8 {
+  0% {
+    transform: translate(23.2vw, 15.6vw);
+  }
+  50% {
+    transform: translate(31.1vw, 19vw);
+  }
+  80% {
+    transform: translate(26.9vw, 25vw);
+  }
+  100% {
+    transform: translate(23.2vw, 15.6vw);
+  }
+}
+@keyframes flying-9 {
+  0% {
+    transform: translate(45vw, 22.7vw);
+  }
+  50% {
+    transform: translate(34.5vw, 28.8vw);
+  }
+  75% {
+    transform: translate(36.2vw, 20vw);
+  }
+  100% {
+    transform: translate(45vw, 22.7vw);
+  }
+}
+@keyframes flying-10 {
+  0% {
+    transform: translate(8.8vw, 32.4vw);
+  }
+  50% {
+    transform: translate(14vw, 18.1vw);
+  }
+  75% {
+    transform: translate(3.3vw, 29vw);
+  }
+  100% {
+    transform: translate(8.8vw, 32.4vw);
+  }
+}
+@keyframes flying-11 {
+  0% {
+    transform: translate(41.4vw, 42.5vw);
+  }
+  50% {
+    transform: translate(27.7vw, 50.5vw);
+  }
+  85% {
+    transform: translate(5vw, 29vw);
+  }
+  100% {
+    transform: translate(41.4vw, 42.5vw);
+  }
+}
+
+/* 
+530 544
+355 647
+328 568
+
+
+
+113 415
+179 232
+42 372
+
+
+
+114 80
+304 24
+303 90
+
+576 291 
+441 368
+463  256
+*/
