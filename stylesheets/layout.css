@@ -35,10 +35,25 @@ h1 {
   height: 10vw;
   margin-right: 0.8vw;
 }
+.logo_1,
+.logo_2,
+.logo_3,
+.logo_4,
+.logo_5,
+.logo_6,
+.logo_7,
+.logo_8,
+.logo_9,
+.logo_10,
+.logo_11,
+.logo_12:hover {
+  animation-play-state: paused;
+}
 .logo_2,
 .logo_7 {
   animation: opacity-animation 1.5s linear infinite;
 }
+
 .logo_12,
 .logo_3 {
   animation: opacity-animation 1s linear infinite;
@@ -120,12 +135,15 @@ h1 {
 }
 .sheep1 {
   animation: sheepWalk-1 5s infinite steps(7);
+  animation-delay: 0s;
 }
 .sheep2 {
-  animation: sheepWalk-2 9s infinite steps(7);
+  animation: sheepWalk-1 5s infinite steps(7);
+  animation-delay: 2s;
 }
 .sheep3 {
-  animation: sheepWalk-2 14s infinite steps(7);
+  animation: sheepWalk-1 5s infinite steps(7);
+  animation-delay: 1s;
 }
 .fence {
   top: 74vw;
@@ -523,16 +541,125 @@ h1 {
 .block_10 {
   height: 38vw;
   background-color: #2d316a;
+  overflow: hidden;
 }
 .block_8 {
   width: 33.4vw;
   margin-right: 0.8vw;
+}
+
+/* движение полукругов */
+
+.half_circles_1,
+.half_circles_3,
+.half_circles_5,
+.half_circles_7,
+.half_circles_9,
+.half_circles_11,
+.half_circles_13,
+.half_circles_15,
+.half_circles_17 {
+  opacity: 0%;
+  position: absolute;
+  width: 10vw;
+  height: 10vw;
+  background-size: 10vw 10vw;
+  background-image: url(../images/halfCircle-2.png);
+}
+.half_circles_2,
+.half_circles_4,
+.half_circles_6,
+.half_circles_8,
+.half_circles_10,
+.half_circles_12,
+.half_circles_14,
+.half_circles_16,
+.half_circles_18 {
+  opacity: 0%;
+  position: absolute;
+  width: 10vw;
+  height: 10vw;
+  background-size: 10vw 10vw;
+  background-image: url(../images/halfCircle.png);
+}
+.half_circles_1 {
+  animation: moveCircle-1 9s infinite;
+  animation-delay: 0s;
+}
+.half_circles_4 {
+  animation: moveCircle-1 9s infinite;
+  animation-delay: 3s;
+}
+.half_circles_5 {
+  animation: moveCircle-1 9s infinite;
+  animation-delay: 4s;
+}
+.half_circles_6 {
+  animation: moveCircle-1 9s infinite;
+  animation-delay: 5s;
+}
+.half_circles_7 {
+  animation: moveCircle-1 9s infinite;
+  animation-delay: 6s;
+}
+.half_circles_8 {
+  animation: moveCircle-1 9s infinite;
+  animation-delay: 7s;
+}
+.half_circles_9 {
+  animation: moveCircle-1 9s infinite;
+  animation-delay: 8s;
+}
+.half_circles_2 {
+  animation: moveCircle-1 9s infinite;
+  animation-delay: 1s;
+}
+.half_circles_3 {
+  animation: moveCircle-1 9s infinite;
+  animation-delay: 2s;
+}
+.half_circles_10 {
+  animation: moveCircle-2 9s infinite;
+  animation-delay: 0s;
+}
+.half_circles_11 {
+  animation: moveCircle-2 9s infinite;
+  animation-delay: 1s;
+}
+.half_circles_12 {
+  animation: moveCircle-2 9s infinite;
+  animation-delay: 2s;
+}
+.half_circles_13 {
+  animation: moveCircle-2 9s infinite;
+  animation-delay: 3s;
+}
+.half_circles_14 {
+  animation: moveCircle-2 9s infinite;
+  animation-delay: 4s;
+}
+.half_circles_15 {
+  animation: moveCircle-2 9s infinite;
+  animation-delay: 5s;
+}
+.half_circles_16 {
+  animation: moveCircle-2 9s infinite;
+  animation-delay: 6s;
+}
+.half_circles_17 {
+  animation: moveCircle-2 9s infinite;
+  animation-delay: 7s;
+}
+.half_circles_18 {
+  animation: moveCircle-2 9s infinite;
+  animation-delay: 8s;
 }
 .block_9 {
   width: 31.6vw;
   margin-right: 0.9vw;
   padding-left: 2.3vw;
   padding-right: 2.3vw;
+  z-index: 2;
 }
 .block_9 p {
   position: absolute;
@@ -564,6 +691,7 @@ h1 {
 }
 /* девятый блок бегущая строка*/
 .eighthBlock {
+  z-index: 2;
   background-color: white;
   height: 11.4vw;
 }
