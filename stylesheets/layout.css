@@ -67,7 +67,8 @@ h1 {
 }
 .logo_4,
 .logo_9,
-.logo_11 {
+.logo_11,
+.logo-X {
   animation: opacity-animation 4s linear infinite;
 }
 .logo_6,
@@ -233,14 +234,14 @@ h1 {
   height: 13.8vw;
   background-image: url(../images/halfMoons.png);
   background-size: 70vw 13.8vw;
-  animation: leftAndRight-1 3s linear infinite;
+  animation: leftAndRight-1 3s infinite;
 }
 .halfMoons4 {
   width: 70vw;
   height: 13.8vw;
   background-image: url(../images/halfMoons.png);
   background-size: 70vw 13.8vw;
-  animation: leftAndRight-2 3s linear infinite;
+  animation: leftAndRight-2 3s infinite;
 }
 /* четвертый блолк-бенто */
 .thirdSection {
@@ -485,7 +486,7 @@ h1 {
 .text16 {
   animation: flying-6 8s infinite linear;
 }
-.circle_9 {
+.circle_14 {
   animation: flying-7 4s infinite linear;
 }
 .circle_10 {
@@ -500,8 +501,7 @@ h1 {
 .circle_13 {
   animation: flying-11 8s infinite linear;
 }
-
-.circle_9,
+.circle_14,
 .circle_10,
 .circle_11,
 .circle_12,
