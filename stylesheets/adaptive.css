@@ -1,3 +1,5 @@
+/* айпад */
+
 @media all and (min-width: 769px) {
   .logo-X,
   .halfMoons5,
@@ -321,8 +323,8 @@
   .block_7 {
     padding: 10vw 1vw 7.9vw 0vw;
   }
-  /* .text12 {
-    animation: flying-2 6s infinite linear;
+  .text12 {
+    animation: flying-2 10s infinite linear;
   }
   .text13 {
     animation: flying-3 8s infinite linear;
@@ -350,213 +352,177 @@
   }
   .circle_13 {
     animation: flying-11 8s infinite linear;
-  } */
-   /* @keyframes flying-2 {
-  0% {
-    transform: translate(1.6vw, 13.2vw);
   }
-  50% {
-    transform: translate(7.6vw, 9.6vw);
+  @keyframes flying-2 {
+    0% {
+      transform: translate(1.3vw, 17.2vw);
+    }
+    50% {
+      transform: translate(7.7vw, 28.8vw);
+    }
+    70% {
+      transform: translate(25.3vw, 22.3vw);
+    }
+    85% {
+      transform: translate(10.3vw, 10.3vw);
+    }
+    100% {
+      transform: translate(1.3vw, 17.2vw);
+    }
   }
-  70% {
-    transform: translate(12.1vw, 12vw);
+  @keyframes flying-3 {
+    0% {
+      transform: translate(31.3vw, 8.6vw);
+    }
+    50% {
+      transform: translate(27vw, 22.8vw);
+    }
+    65% {
+      transform: translate(17.4vw, 25vw);
+    }
+    80% {
+      transform: translate(19.8vw, 7vw);
+    }
+    100% {
+      transform: translate(31.3vw, 8.6vw);
+    }
   }
-  100% {
-    transform: translate(1.6vw, 13.2vw);
+  @keyframes flying-4 {
+    0% {
+      transform: translate(17.7vw, 38.5vw);
+    }
+    25% {
+      transform: translate(10.3vw, 49.7vw);
+    }
+    50% {
+      transform: translate(2.5vw, 39.5vw);
+    }
+    80% {
+      transform: translate(2.3vw, 31.4vw);
+    }
+    100% {
+      transform: translate(17.7vw, 38.5vw);
+    }
   }
-}
-@keyframes flying-3 {
-  0% {
-    transform: translate(34vw, 10.9vw);
+  @keyframes flying-5 {
+    0% {
+      transform: translate(31.8vw, 56.6vw);
+    }
+    50% {
+      transform: translate(22vw, 65.6vw);
+    }
+    60% {
+      transform: translate(11.1vw, 54.7vw);
+    }
+    85% {
+      transform: translate(27vw, 48vw);
+    }
+    100% {
+      transform: translate(31.8vw, 56.6vw);
+    }
   }
-  50% {
-    transform: translate(30.9vw, 6.3vw);
+  @keyframes flying-6 {
+    0% {
+      transform: translate(1.3vw, 67.4vw);
+    }
+    50% {
+      transform: translate(14.2vw, 74.6vw);
+    }
+    75% {
+      transform: translate(4.7vw, 78.3vw);
+    }
+    100% {
+      transform: translate(1.3vw, 67.4vw);
+    }
   }
-  70% {
-    transform: translate(23.7vw, 9.8vw);
+  @keyframes flying-7 {
+    0% {
+      transform: translate(17.7vw, 19.5vw);
+    }
+    50% {
+      transform: translate(7.3vw, 29.4vw);
+    }
+    70% {
+      transform: translate(22vw, 32.4vw);
+    }
+    80% {
+      transform: translate(29.4vw, 22.9vw);
+    }
+    100% {
+      transform: translate(17.7vw, 19.5vw);
+    }
   }
-  100% {
-    transform: translate(34vw, 10.9vw);
+  @keyframes flying-7 {
+    0% {
+      transform: translate(34.2vw, 68.9vw);
+    }
+    50% {
+      transform: translate(41.4vw, 63.4vw);
+    }
+    75% {
+      transform: translate(40.2vw, 78.1vw);
+    }
+    100% {
+      transform: translate(34.2vw, 68.9vw);
+    }
   }
-}
-@keyframes flying-4 {
-  0% {
-    transform: translate(12.3vw, 22.2vw);
+  @keyframes flying-8 {
+    0% {
+      transform: translate(11.8vw, 4vw);
+    }
+    50% {
+      transform: translate(19.7vw, 9.9vw);
+    }
+    75% {
+      transform: translate(32vw, 1.4vw);
+    }
+    100% {
+      transform: translate(11.8vw, 4vw);
+    }
   }
-  25% {
-    transform: translate(21.3vw, 26.9vw);
+  @keyframes flying-9 {
+    0% {
+      transform: translate(17.7vw, 19.5vw);
+    }
+    50% {
+      transform: translate(38vw, 24.5vw);
+    }
+    75% {
+      transform: translate(11.1vw, 35.4vw);
+    }
+    100% {
+      transform: translate(17.7vw, 19.5vw);
+    }
   }
-  50% {
-    transform: translate(17.6vw, 32.4vw);
+  @keyframes flying-10 {
+    0% {
+      transform: translate(34.2vw, 31.4vw);
+    }
+    20% {
+      transform: translate(42.6vw, 45.7vw);
+    }
+    75% {
+      transform: translate(7.3vw, 49.3vw);
+    }
+    100% {
+      transform: translate(34.2vw, 31.4vw);
+    }
   }
-  80% {
-    transform: translate(5.2vw, 29.4vw);
+  @keyframes flying-11 {
+    0% {
+      transform: translate(17.4vw, 53.4vw);
+    }
+    50% {
+      transform: translate(7.3vw, 62vw);
+    }
+    75% {
+      transform: translate(4.9vw, 37vw);
+    }
+    100% {
+      transform: translate(17.4vw, 53.4vw);
+    }
   }
-  100% {
-    transform: translate(12.3vw, 22.2vw);
-  }
-}
-@keyframes flying-5 {
-  0% {
-    transform: translate(34vw, 33vw);
-  }
-  50% {
-    transform: translate(37.3vw, 38.7vw);
-  }
-  70% {
-    transform: translate(22.3vw, 39.7vw);
-  }
-  100% {
-    transform: translate(34vw, 33vw);
-  }
-}
-@keyframes flying-6 {
-  0% {
-    transform: translate(1.5vw, 40vw);
-  }
-  50% {
-    transform: translate(6.6vw, 48.2vw);
-  }
-  85% {
-    transform: translate(15.4vw, 45.5vw);
-  }
-  100% {
-    transform: translate(1.5vw, 40vw);
-  }
-}
-@keyframes flying-7 {
-  0% {
-    transform: translate(8.9vw, 6.3vw);
-  }
-  50% {
-    transform: translate(23.8vw, 1.9vw);
-  }
-  80% {
-    transform: translate(19.6vw, 7vw);
-  }
-  100% {
-    transform: translate(8.9vw, 6vw);
-  }
-}
-@keyframes flying-8 {
-  0% {
-    transform: translate(23.2vw, 15.6vw);
-  }
-  50% {
-    transform: translate(31.1vw, 19vw);
-  }
-  80% {
-    transform: translate(26.9vw, 25vw);
-  }
-  100% {
-    transform: translate(23.2vw, 15.6vw);
-  }
-}
-@keyframes flying-9 {
-  0% {
-    transform: translate(45vw, 22.7vw);
-  }
-  50% {
-    transform: translate(34.5vw, 28.8vw);
-  }
-  75% {
-    transform: translate(36.2vw, 20vw);
-  }
-  100% {
-    transform: translate(45vw, 22.7vw);
-  }
-}
-@keyframes flying-10 {
-  0% {
-    transform: translate(8.8vw, 32.4vw);
-  }
-  50% {
-    transform: translate(14vw, 18.1vw);
-  }
-  75% {
-    transform: translate(3.3vw, 29vw);
-  }
-  100% {
-    transform: translate(8.8vw, 32.4vw);
-  }
-}
-@keyframes flying-11 {
-  0% {
-    transform: translate(41.4vw, 42.5vw);
-  }
-  50% {
-    transform: translate(27.7vw, 50.5vw);
-  }
-  85% {
-    transform: translate(5vw, 29vw);
-  }
-  100% {
-    transform: translate(41.4vw, 42.5vw);
-  }
-}
 
-@keyframes moveCircle-1 {
-  0% {
-    opacity: 100%;
-    transform: translate(36.2vw, 3vw);
-  }
-  12.5% {
-    transform: translate(23.4vw, 3vw);
-  }
-  25% {
-    transform: translate(12.5vw, 3vw);
-  }
-  37.5% {
-    transform: translate(1.6vw, 3vw);
-  }
-  50% {
-    transform: translate(1.6vw, 14.9vw);
-  }
-  62.5% {
-    transform: translate(1.6vw, 25.7vw);
-  }
-  75% {
-    transform: translate(12.5vw, 25.7vw);
-  }
-  87.5% {
-    transform: translate(23.4vw, 25.7vw);
-  }
-  100% {
-    opacity: 100%;
-    transform: translate(36.2vw, 25.7vw);
-  }
-}
-@keyframes moveCircle-2 {
-  0% {
-    opacity: 100%;
-    transform: translate(-10vw, 25.7vw);
-  }
-  12.5% {
-    transform: translate(0, 25.7vw);
-  }
-  25% {
-    transform: translate(11vw, 25.7vw);
-  }
-  37.5% {
-    transform: translate(22vw, 25.7vw);
-  }
-  50% {
-    transform: translate(22vw, 14.9vw);
-  }
-  62.5% {
-    transform: translate(22vw, 3vw);
-  }
-  75% {
-    transform: translate(11vw, 3vw);
-  }
-  87.5% {
-    transform: translate(0, 3vw);
-  }
-  100% {
-    opacity: 100%;
-    transform: translate(-10vw, 3vw);
-  }
-} */
   .humanSleeps {
     width: 50vw;
     height: 62.4vw;
@@ -577,6 +543,39 @@
     font-size: 4.7vw;
   }
 }
-/* @media all and (max-width: 320px) {
+/* телефон */
 
-} */
+@media all and (max-width: 320px) {
+  .titleBlock {
+    height: 148.4vw;
+    padding: 10vw 1.9vw 4.4vw 1.9vw;
+  }
+  .logo78,
+  .logo_12 {
+    display: none;
+  }
+  .logo_1,
+  .logo_2,
+  .logo_3,
+  .logo_5,
+  .logo_6,
+  .logo_7,
+  .logo_8,
+  .logo_9,
+  .logo_10 {
+    width: 22.5vw;
+    height: 22.5vw;
+    margin-right: 1.9vw;
+  }
+  h1 {
+    font-size: 15.6vw;
+  }
+  .circle_1,
+  .circle_2,
+  .circle_3,
+  .circle_4 {
+    width: 11.3vw;
+    height: 11.3vw;
+  }
+  
+}
