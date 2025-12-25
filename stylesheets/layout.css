@@ -53,9 +53,7 @@ h1 {
 .logo_7 {
   animation: opacity-animation 1.5s linear infinite;
 }
-.logo-X {
-  display: none;
-}
+
 .logo_12,
 .logo_3 {
   animation: opacity-animation 1s linear infinite;

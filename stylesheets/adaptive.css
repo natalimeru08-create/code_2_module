@@ -545,7 +545,7 @@
 }
 /* телефон */
 
-@media all and (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .titleBlock {
     height: 148.4vw;
     padding: 10vw 1.9vw 4.4vw 1.9vw;
@@ -567,8 +567,28 @@
     height: 22.5vw;
     margin-right: 1.9vw;
   }
+  .logo56 {
+    margin-top: 0;
+  }
+  .logo12 {
+    width: 22.5vw;
+  }
+  .logo_2 {
+    margin-top: 22.5vw;
+  }
+  .logo_3 {
+    margin-top: 22.8vw;
+  }
+  .logo_6 {
+    margin-top: 45vw;
+  }
+  .logo_10 {
+    margin-top: 93.8vw;
+    animation: opacity-animation 5s linear infinite;
+  }
   h1 {
     font-size: 15.6vw;
+    margin-top: 3vw;
   }
   .circle_1,
   .circle_2,
@@ -577,5 +597,66 @@
     width: 11.3vw;
     height: 11.3vw;
   }
-  
+  .blocks1,
+  .blocks2,
+  .blocks3,
+  .blocks4 {
+    display: block;
+  }
+  .firstBlock {
+    height: 95.3vw;
+  }
+  .sheep2,
+  .sheep3 {
+    display: none;
+  }
+  .sheep1 {
+    top: 193vw;
+    height: 50.9vw;
+    width: 58.4vw;
+    background-size: 381.6vw 50.9vw;
+  }
+  @keyframes sheepWalk-1 {
+    0% {
+      background-position: 0 0;
+      transform: translate(-88vw, 0);
+    }
+
+    100% {
+      background-position: 381vw 0;
+      transform: translate(110vw, 0);
+    }
+  }
+  .sheep1 {
+    animation: sheepWalk-1 1.7s infinite steps(7);
+    animation-delay: 0s;
+  }
+  .fence {
+    top: 225.7vw;
+    left: 45vw;
+    position: absolute;
+    width: 12vw;
+    height: 18vw;
+  }
+  .block_1,
+  .block_2,
+  .block_3 {
+    width: 100vw;
+    margin-right: 0;
+  }
+  .secondBlock {
+    height: 303.1vw;
+  }
+  .block_1 {
+    height: 148.4vw;
+  }
+  .block_2 {
+    height: 55.3vw;
+    border-top: 3.1vw solid;
+    border-bottom: 3.1vw solid;
+    color: white;
+  }
+  .block_3 {
+    height: 104.1vw;
+  }
 }
