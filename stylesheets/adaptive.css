@@ -618,11 +618,13 @@
   }
   @keyframes sheepWalk-1 {
     0% {
+      opacity: 100%;
       background-position: 0 0;
       transform: translate(-88vw, 0);
     }
 
     100% {
+      opacity: 100%;
       background-position: 381vw 0;
       transform: translate(110vw, 0);
     }
@@ -940,7 +942,7 @@
   .text6 {
     position: absolute;
     margin-top: 69vw;
-    margin-left: 13vw;
+    margin-left: 20vw;
   }
   .fifthBlock {
     height: 52.8vw;
