@@ -683,17 +683,15 @@
     border-top: 3.1vw solid;
     border-bottom: 3.1vw solid;
     color: white;
-    padding: 10.9vw 0 0 4.4vw;
+    padding: 10vw 0 0 4.4vw;
   }
 
   .text1,
   .text2,
   .text3 {
     font-size: 7.8vw;
+    line-height: 9vw;
     margin-bottom: 3vw;
-  }
-  .text2 {
-    height: 9vw;
   }
   .block_3 {
     margin-top: 0;
@@ -963,6 +961,14 @@
   .sixthBlock {
     height: 368.6vw;
   }
+  .circle_10,
+  .circle_11,
+  .circle_12,
+  .circle_13,
+  .circle_14 {
+    width: 6.3vw;
+    height: 6.3vw;
+  }
   .block_6 {
     border-bottom: 3.1vw solid;
     color: white;
@@ -973,6 +979,22 @@
     height: 168.4vw;
     border-bottom: 3.1vw solid;
     color: white;
+    padding: 25vw 0 25vw 0;
+  }
+  .humanSleeps {
+    width: 200vw;
+    height: 125.3vw;
+    background-size: 305vw 125.3vw;
+    animation: sleeping-3 4s infinite steps(3);
+  }
+
+  @keyframes sleeping-3 {
+    0% {
+      background-position: 0 top;
+    }
+    100% {
+      background-position: -305vw top;
+    }
   }
   .seventhBlock {
     height: 270vw;
@@ -987,8 +1009,77 @@
     margin-top: 3.1vw;
     height: 61.9vw;
   }
+  .block_9 p {
+    position: absolute;
+    font-size: 5.3vw;
+    color: white;
+  }
+  .text7 {
+    margin-top: 7vw;
+    animation: leftAndRight-3 5s infinite linear;
+  }
+  .text8 {
+    margin-top: 19.4vw;
+    animation: leftAndRight-4 6s infinite linear;
+  }
+  .text9 {
+    margin-top: 30vw;
+    animation: leftAndRight-5 3s infinite linear;
+  }
+  .text10 {
+    margin-top: 42vw;
+    animation: leftAndRight-3 5s infinite linear;
+  }
+  .text11 {
+    margin-top: 51vw;
+    animation: leftAndRight-4 5s infinite linear;
+  }
+
+  @keyframes leftAndRight-3 {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(70vw);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @keyframes leftAndRight-4 {
+    0% {
+      transform: translateX(70vw);
+    }
+    50% {
+      transform: translateX(0vw);
+    }
+    100% {
+      transform: translateX(70vw);
+    }
+  }
+  @keyframes leftAndRight-5 {
+    0% {
+      transform: translateX(40vw);
+    }
+    25% {
+      transform: translateX(0vw);
+    }
+    50% {
+      transform: translateX(40vw);
+    }
+    75% {
+      transform: translateX(50vw);
+    }
+    100% {
+      transform: translateX(40vw);
+    }
+  }
   .block_10 {
     height: 99.4vw;
     margin-top: 3.1vw;
+  }
+  .eighthBlock p {
+    margin-top: 6vw;
+    font-size: 7.8vw;
   }
 }
