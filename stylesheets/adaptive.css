@@ -640,7 +640,14 @@
   }
   .block_1,
   .block_2,
-  .block_3 {
+  .block_3,
+  .block_4,
+  .block_5,
+  .block_6,
+  .block_7,
+  .block_8,
+  .block_9,
+  .block_10 {
     width: 100vw;
     margin-right: 0;
   }
@@ -657,6 +664,59 @@
     color: white;
   }
   .block_3 {
+    margin-top: 0;
     height: 104.1vw;
+  }
+  .thirdSection {
+    height: 210vw;
+  }
+  .block_4 {
+    height: 114.7vw;
+    color: white;
+    border-top: 3.1vw solid;
+    border-bottom: 3.1vw solid;
+  }
+  .block_5 {
+    margin-left: 0;
+    height: 96.9vw;
+    color: white;
+    border-bottom: 3.1vw solid;
+  }
+  .fourthBlock {
+    height: 148.4vw;
+  }
+  .fifthBlock {
+    height: 52.8vw;
+  }
+  .sixthBlock {
+    height: 368.6vw;
+  }
+  .block_6 {
+    border-bottom: 3.1vw solid;
+    color: white;
+    height: 200vw;
+  }
+  .block_7 {
+    margin-left: 0;
+    height: 168.4vw;
+    border-bottom: 3.1vw solid;
+    color: white;
+  }
+  .seventhBlock {
+    height: 270vw;
+  }
+  .eighthBlock {
+    height: 23.8vw;
+  }
+  .block_8 {
+    height: 99.4vw;
+  }
+  .block_9 {
+    margin-top: 3.1vw;
+    height: 61.9vw;
+  }
+  .block_10 {
+    height: 99.4vw;
+    margin-top: 3.1vw;
   }
 }
