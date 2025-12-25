@@ -648,6 +648,7 @@
   .block_8,
   .block_9,
   .block_10 {
+    overflow: hidden;
     width: 100vw;
     margin-right: 0;
   }
@@ -980,6 +981,7 @@
     border-bottom: 3.1vw solid;
     color: white;
     padding: 25vw 0 25vw 0;
+    overflow: hidden;
   }
   .humanSleeps {
     width: 200vw;
@@ -1002,9 +1004,70 @@
   .eighthBlock {
     height: 23.8vw;
   }
+
   .block_8 {
     height: 99.4vw;
   }
+  .half_circles_1,
+  .half_circles_3,
+  .half_circles_5,
+  .half_circles_7,
+  .half_circles_9,
+  .half_circles_11,
+  .half_circles_13,
+  .half_circles_15,
+  .half_circles_17 {
+    opacity: 0%;
+    width: 26.9vw;
+    height: 26.9vw;
+    background-size: 26.9vw 26.9vw;
+  }
+  .half_circles_2,
+  .half_circles_4,
+  .half_circles_6,
+  .half_circles_8,
+  .half_circles_10,
+  .half_circles_12,
+  .half_circles_14,
+  .half_circles_16,
+  .half_circles_18 {
+    opacity: 0%;
+    width: 26.9vw;
+    height: 26.9vw;
+    background-size: 26.9vw 26.9vw;
+  }
+  @keyframes moveCircle-1 {
+    0% {
+      opacity: 100%;
+      transform: translate(6.9vw, 104vw);
+    }
+    12.5% {
+      transform: translate(6.9vw, 73.8vw);
+    }
+    25% {
+      transform: translate(6.9vw, 44.4vw);
+    }
+    37.5% {
+      transform: translate(6.9vw, 15vw);
+    }
+    50% {
+      transform: translate(35.9vw, 15vw);
+    }
+    62.5% {
+      transform: translate(65.3vw, 15vw);
+    }
+    75% {
+      transform: translate(65.3vw, 44.4vw);
+    }
+    87.5% {
+      transform: translate(65.3vw, 73.8vw);
+    }
+    100% {
+      opacity: 100%;
+      transform: translate(65.3vw, 104vw);
+    }
+  }
+
   .block_9 {
     margin-top: 3.1vw;
     height: 61.9vw;

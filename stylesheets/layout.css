@@ -35,46 +35,81 @@ h1 {
   height: 10vw;
   margin-right: 0.8vw;
 }
-.logo_1,
-.logo_2,
-.logo_3,
-.logo_4,
-.logo_5,
-.logo_6,
-.logo_7,
-.logo_8,
-.logo_9,
-.logo_10,
-.logo_11,
-.logo_12:hover {
-  animation-play-state: paused;
-}
+
 .logo_2,
 .logo_7 {
   animation: opacity-animation 1.5s linear infinite;
+  animation-play-state: running;
+}
+.logo_2:hover {
+  animation-play-state: paused;
+}
+.logo_7:hover {
+  animation-play-state: paused;
 }
 
 .logo_12,
 .logo_3 {
   animation: opacity-animation 1s linear infinite;
+  animation-play-state: running;
 }
+.logo_12:hover {
+  animation-play-state: paused;
+}
+.logo_3:hover {
+  animation-play-state: paused;
+}
+
 .logo_8,
 .logo_5 {
   animation: opacity-animation 2s linear infinite;
+  animation-play-state: running;
 }
+.logo_8:hover {
+  animation-play-state: paused;
+}
+.logo_5:hover {
+  animation-play-state: paused;
+}
+
 .logo_1 {
   animation: opacity-animation 0.5s linear infinite;
+  animation-play-state: running;
+}
+.logo_1:hover {
+  animation-play-state: paused;
 }
 .logo_4,
 .logo_9,
 .logo_11,
 .logo-X {
   animation: opacity-animation 4s linear infinite;
+  animation-play-state: running;
+}
+.logo_4:hover {
+  animation-play-state: paused;
+}
+.logo_9:hover {
+  animation-play-state: paused;
+}
+.logo_11:hover {
+  animation-play-state: paused;
+}
+.logo-X:hover {
+  animation-play-state: paused;
 }
 .logo_6,
 .logo_10 {
   animation: opacity-animation 3.5s linear infinite;
+  animation-play-state: running;
 }
+.logo_6:hover {
+  animation-play-state: paused;
+}
+.logo_10:hover {
+  animation-play-state: paused;
+}
+
 .top,
 .bottom {
   display: flex;
@@ -127,6 +162,7 @@ h1 {
 .sheep2,
 .sheep3 {
   position: absolute;
+  opacity: 0%;
   z-index: 2;
   top: 60vw;
   background-image: url("../images/sheepGoesAndJumps.png");
@@ -418,26 +454,66 @@ h1 {
 .logo_21,
 .logo_13 {
   animation: opacity-animation 3.5s linear infinite;
+  animation-play-state: running;
 }
+.logo_21:hover {
+  animation-play-state: paused;
+}
+.logo_13:hover {
+  animation-play-state: paused;
+}
+
 .logo_19,
 .logo_23 {
   animation: opacity-animation 1.5s linear infinite;
+  animation-play-state: running;
+}
+.logo_19:hover {
+  animation-play-state: paused;
+}
+.logo_23:hover {
+  animation-play-state: paused;
 }
 
 .logo_14,
 .logo_16 {
   animation: opacity-animation 1s linear infinite;
+  animation-play-state: running;
+}
+.logo_14:hover {
+  animation-play-state: paused;
+}
+.logo_16:hover {
+  animation-play-state: paused;
 }
 .logo_20,
 .logo_22 {
   animation: opacity-animation 2s linear infinite;
+  animation-play-state: running;
+}
+.logo_20:hover {
+  animation-play-state: paused;
+}
+.logo_22:hover {
+  animation-play-state: paused;
 }
 .logo_15,
 .logo_17 {
   animation: opacity-animation 0.5s linear infinite;
+  animation-play-state: running;
+}
+.logo_15:hover {
+  animation-play-state: paused;
+}
+.logo_17:hover {
+  animation-play-state: paused;
 }
 .logo_18 {
   animation: opacity-animation 3.5s linear infinite;
+  animation-play-state: running;
+}
+.logo_18:hover {
+  animation-play-state: paused;
 }
 .text4 {
   position: absolute;
@@ -493,33 +569,73 @@ h1 {
 
 .text12 {
   animation: flying-2 6s infinite linear;
+  animation-play-state: running;
 }
 .text13 {
   animation: flying-3 8s infinite linear;
+  animation-play-state: running;
 }
 .text14 {
   animation: flying-4 7s infinite linear;
+  animation-play-state: running;
 }
 .text15 {
   animation: flying-5 8s infinite linear;
+  animation-play-state: running;
 }
 .text16 {
   animation: flying-6 8s infinite linear;
+  animation-play-state: running;
 }
 .circle_14 {
   animation: flying-7 4s infinite linear;
+  animation-play-state: running;
 }
 .circle_10 {
   animation: flying-8 6s infinite linear;
+  animation-play-state: running;
 }
 .circle_11 {
   animation: flying-9 9s infinite linear;
+  animation-play-state: running;
 }
 .circle_12 {
   animation: flying-10 10s infinite linear;
+  animation-play-state: running;
 }
 .circle_13 {
   animation: flying-11 8s infinite linear;
+  animation-play-state: running;
+}
+.text12:hover {
+  animation-play-state: paused;
+}
+.text13:hover {
+  animation-play-state: paused;
+}
+.text14:hover {
+  animation-play-state: paused;
+}
+.text15:hover {
+  animation-play-state: paused;
+}
+.text16:hover {
+  animation-play-state: paused;
+}
+.circle_14:hover {
+  animation-play-state: paused;
+}
+.circle_10:hover {
+  animation-play-state: paused;
+}
+.circle_11:hover {
+  animation-play-state: paused;
+}
+.circle_12:hover {
+  animation-play-state: paused;
+}
+.circle_13:hover {
+  animation-play-state: paused;
 }
 .circle_14,
 .circle_10,
@@ -688,22 +804,43 @@ h1 {
 .text7 {
   margin-top: 3vw;
   animation: leftAndRight-3 3s infinite linear;
+  animation-play-state: running;
 }
 .text8 {
   margin-top: 10.2vw;
   animation: leftAndRight-4 3s infinite linear;
+  animation-play-state: running;
 }
 .text9 {
   margin-top: 18.4vw;
   animation: leftAndRight-5 3s infinite linear;
+  animation-play-state: running;
 }
 .text10 {
   margin-top: 25.9vw;
   animation: leftAndRight-3 4s infinite linear;
+  animation-play-state: running;
 }
 .text11 {
   margin-top: 30.9vw;
   animation: leftAndRight-4 5s infinite linear;
+  animation-play-state: running;
+}
+
+.text7:hover {
+  animation-play-state: paused;
+}
+.text8:hover {
+  animation-play-state: paused;
+}
+.text9:hover {
+  animation-play-state: paused;
+}
+.text10:hover {
+  animation-play-state: paused;
+}
+.text11:hover {
+  animation-play-state: paused;
 }
 .block_10 {
   width: 33.3vw;
