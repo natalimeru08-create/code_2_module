@@ -692,7 +692,9 @@
     font-size: 7.8vw;
     margin-bottom: 3vw;
   }
-
+  .text2 {
+    height: 9vw;
+  }
   .block_3 {
     margin-top: 0;
     height: 104.1vw;

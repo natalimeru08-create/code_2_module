@@ -7,6 +7,15 @@
     transform: translateX(-100%);
   }
 }
+@keyframes running-animation-2 {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
 @keyframes opacity-animation {
   0% {
     opacity: 100%;
