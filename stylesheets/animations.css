@@ -135,25 +135,25 @@
   }
 }
 
-/* 19.5vw
-1vw */
 @keyframes flying-1 {
   0% {
+    opacity: 100%;
     transform: translate(-5vw, 19.5vw);
   }
   25% {
     transform: translate(2.4vw, 1vw);
   }
   50% {
-    transform: translate(13vw, 19.5vw);
+    transform: translate(13vw, 24vw);
   }
   75% {
     transform: translate(24vw, 1vw);
   }
   90% {
-    transform: translate(34vw, 19.5vw);
+    transform: translate(34vw, 24vw);
   }
   100% {
+    opacity: 100%;
     transform: translate(50vw, 1vw);
   }
 }

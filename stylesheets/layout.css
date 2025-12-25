@@ -276,11 +276,17 @@ h1 {
   animation: pad1 3s linear infinite;
   animation-play-state: running;
 }
+.pillow1:hover {
+  animation-play-state: paused;
+}
 .pillow2 {
   margin-left: 10vw;
   margin-top: -10vw;
   animation: pad2 4s linear infinite;
   animation-play-state: running;
+}
+.pillow2:hover {
+  animation-play-state: paused;
 }
 .pillow3 {
   margin-left: 30vw;
@@ -288,11 +294,17 @@ h1 {
   animation: pad1 5s linear infinite;
   animation-play-state: running;
 }
+.pillow3:hover {
+  animation-play-state: paused;
+}
 .pillow4 {
   margin-left: 35vw;
   margin-top: -10vw;
   animation: pad2 7s linear infinite;
   animation-play-state: running;
+}
+.pillow4:hover {
+  animation-play-state: paused;
 }
 .block_5 {
   margin-left: 1vw;
@@ -306,17 +318,25 @@ h1 {
   height: 2.7vw;
   border-radius: 100%;
 }
-.circleFly1 {
+
+.circleFly1,
+.circleFly2,
+.circleFly3,
+.circleFly4 {
   animation: flying-1 4s infinite linear;
+  opacity: 0%;
+}
+.circleFly1 {
+  animation-delay: 0s;
 }
 .circleFly2 {
-  animation: flying-1 5s infinite linear;
+  animation-delay: 1s;
 }
 .circleFly3 {
-  animation: flying-1 6s infinite linear;
+  animation-delay: 2s;
 }
 .circleFly4 {
-  animation: flying-1 8s infinite linear;
+  animation-delay: 3s;
 }
 
 /* пятый блок */
@@ -526,7 +546,6 @@ h1 {
   background-image: url(../images/humanSleeps.png);
   animation: sleeping 4s steps(3) infinite;
 }
-
 
 /* восьмой тройной бенто */
 .seventhBlock {
