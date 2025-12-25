@@ -546,7 +546,7 @@
 }
 /* телефон */
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 500px) {
   .titleBlock {
     height: 148.4vw;
     padding: 10vw 1.9vw 4.4vw 1.9vw;
@@ -1079,7 +1079,6 @@
     }
   }
 
-
   @keyframes flying-7 {
     0% {
       transform: translate(19.1vw, 21.9vw);
@@ -1245,8 +1244,39 @@
       transform: translate(65.3vw, 104vw);
     }
   }
-
+  @keyframes moveCircle-2 {
+    0% {
+      opacity: 100%;
+      transform: translate(65.3vw, -26.9vw);
+    }
+    12.5% {
+      transform: translate(65.3vw, 0vw);
+    }
+    25% {
+      transform: translate(65.3vw, 34.1vw);
+    }
+    37.5% {
+      transform: translate(65.3vw, 63.1vw);
+    }
+    50% {
+      transform: translate(35.9vw, 63.1vw);
+    }
+    62.5% {
+      transform: translate(6.9vw, 63.1vw);
+    }
+    75% {
+      transform: translate(6.9vw, 34.1vw);
+    }
+    87.5% {
+      transform: translate(6.9vw, 0vw);
+    }
+    100% {
+      opacity: 100%;
+      transform: translate(6.9vw, -26.9vw);
+    }
+  }
   .block_9 {
+    position: relative;
     margin-top: 3.1vw;
     height: 61.9vw;
   }
@@ -1319,6 +1349,7 @@
     height: 99.4vw;
     margin-top: 3.1vw;
   }
+
   .eighthBlock p {
     margin-top: 6vw;
     font-size: 7.8vw;
