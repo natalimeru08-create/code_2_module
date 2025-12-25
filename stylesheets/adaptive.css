@@ -545,7 +545,7 @@
 }
 /* телефон */
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 475px) {
   .titleBlock {
     height: 148.4vw;
     padding: 10vw 1.9vw 4.4vw 1.9vw;
